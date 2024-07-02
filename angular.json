@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mp-anjular": {
+    "my-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/mp-anjular",
+            "outputPath": "dist/my-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "mp-anjular:build:production"
+              "buildTarget": "my-angular:build:production"
             },
             "development": {
-              "buildTarget": "mp-anjular:build:development"
+              "buildTarget": "my-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -97,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6c9763c1-8649-429a-9518-587165ca063c"
   }
 }

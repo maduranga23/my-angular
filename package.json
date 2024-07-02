@@ -1,5 +1,5 @@
 {
-  "name": "mp-anjular",
+  "name": "my-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:mp-anjular": "node dist/mp-anjular/server/server.mjs"
+    "serve:ssr:my-angular": "node dist/my-angular/server/server.mjs"
   },
   "private": true,
   "dependencies": {
